@@ -13,7 +13,7 @@
         <h2>{{ quicklinks.labels.maintainers }}</h2>
         {%- for key, item in quicklinks.maintainers.items() %}
           <div class="top-link">
-            <i class="fas fa-bookmark"></i><a class="btn" href="{{ item.link }}" role="button">{{
+            <i class="fas fa-bookmark"></i><a class="btn" href="{{ item.url }}" role="button">{{
               item.label
             }}</a>
           </div>
@@ -31,7 +31,7 @@
              aria-label="{{ homepage.labels.button_group }}">
           {%- for action_key, action_value in value.actions.items() %}
             <div class="doc-link-row doc-link">
-              <i class="fas fa-book"></i><a class="btn" href="{{ action_value.link }}" role="button">{{ action_value.label }}</a>
+              <i class="fas fa-book"></i><a class="btn" href="{{ action_value.url }}" role="button">{{ action_value.label }}</a>
             </div>
           {%- endfor %}
         </div>
