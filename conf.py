@@ -1361,7 +1361,7 @@ FILE_METADATA_UNSLUGIFY_TITLES = True
 USE_BUNDLES = False
 
 # Plugins you don't want to use. Be careful :-)
-DISABLED_PLUGINS = ["render_galleries", "render_taxonomies",]
+DISABLED_PLUGINS = ["render_galleries", "render_taxonomies", "sitemap", "robots"]
 
 # Special settings to disable only parts of the indexes plugin.
 # Use with care.
