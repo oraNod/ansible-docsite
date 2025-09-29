@@ -14,4 +14,7 @@ build:
     - python -m pip install --upgrade -r ./requirements.in -c ./requirements.txt
     - nikola build
     - mkdir -p _readthedocs/html/
-    - cp -r output/* sitemap.xml _readthedocs/html/
+    - cp -r output/* _readthedocs/html/
+    - cp sitemap.xml _readthedocs/html/
+
+formats: []
